@@ -40,7 +40,7 @@ Both of my plots use the "buildings.csv" dataset provided to us from the Prairie
 My first plot is plotting the "Year Acquired" variable as the encoded X coded temporally against the "Total Floors" variable as the encoded Y coded quantitatively. The plot is coded as circle points using mark_circle and the color is coded as "Rep District", which then provides a sequential blue color map. I have provided a tooltip of Rep District, Year Acquired, and Total Floors and made it interactive that way as well as using a pan-zoom effect (you hover over the plot with your cursor to get this interactivity). I had to transform the "Year Acquired" variable in the code such that all cases where there was a row that contained a "Year Acquired" of the value 0 had to be dropped, because it doesn't make sense to include datapoints with a "year" of 0. I was interested in making this plot to look less at how floors change with time and more at the distribution of if later years had more floors. I included the Rep District as a color because it was my first time making a plot with a tooltip and I thought that different districts might have different distributions of floors depending on what year it was.
 
 ### Second Plot
-My second plot is plotting the "Congressional District" variable called "Congress Dist" as the encoded X, coded quantitatively against the "Square Footage" variable as the encoded Y variable which was also coded quantitatively. The plot is a bar plot using the command mark_bar() and the color of the bars are the column "Usage Description". I made this plot to look at what Usage Descriptions have more Square Footage allotted to them, as well as to look at which Congressional Districts have what types of building usages associated with them. The highest bar in congressional district 7 has a lot of "business" or "unusual" types, as do congressional districts 10 and 13. Another one of the most common usages is "assembly" and/or "storage", and we can also see commonly "health care". 
+My second plot is plotting the "Congressional District" variable called "Congress Dist" as the encoded X, coded quantitatively against the "Square Footage" variable as the encoded Y variable which was also coded quantitatively. The plot is a bar plot using the command mark_bar() and the color of the bars are the column "Usage Description". I made this plot to look at what Usage Descriptions have more Square Footage allotted to them, as well as to look at which Congressional Districts have what types of building usages associated with them. The highest bar in congressional district 7 has a lot of "business" or "unusual" types, as do congressional districts 10 and 13. Another one of the most common usages is "assembly" and/or "storage", and we can also see commonly "health care". If I had more time, I would have wanted to add a tooltip to this plot.
 
 Below is where we can put some links to both the data and the analysis code as buttons:
 
@@ -50,7 +50,7 @@ Below is where we can put some links to both the data and the analysis code as b
 </div>
 
 <div class="right">
-{% include elements/button.html link="https://blog.4dcu.be/programming/2021/05/03/Interactive-Visualizations.html" text="The Analysis" %}
+{% include elements/button.html link="https://github.com/3nikolov/3nikolov.github.io/blob/main/python_notebooks/Workbook.ipynb" text="The Analysis" %}
 </div>
 ```
 
@@ -61,6 +61,6 @@ Below is where we can put some links to both the data and the analysis code as b
 </div>
 
 <div class="right">
-{% include elements/button.html link="https://github.com/jnaiman/online_cv_public/blob/main/python_notebooks/test_generate_plots.ipynb" text="The Analysis" %}
+{% include elements/button.html link="https://github.com/3nikolov/3nikolov.github.io/blob/main/python_notebooks/Workbook.ipynb" text="The Analysis" %}
 </div>
 
